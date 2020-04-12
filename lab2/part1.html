@@ -20,15 +20,20 @@
             document.body.appendChild(renderer.domElement);
 
             var geometry = new THREE.BoxGeometry();
-            var material = new THREE.MeshBasicMaterial( {color: 0x00ff00} );
+            var material = new THREE.MeshBasicMaterial( {color: 0xfc9d03} );
             var cube = new THREE.Mesh(geometry, material);
             scene.add(cube);
             camera.position.z = 5; //this moves the camera towards the viewer
 
 
             function animate() {
-                geometry.rotateX(0.01);
+                geometry.rotateX( 0.01);
                 geometry.rotateY(0.01);
+                geometry.translate( 0.0001, 0.0001, 0.0001 );
+                geometry.scale( 1, 1.0, 1.001 );
+
+
+                
 
                 requestAnimationFrame(animate);
                 renderer.render(scene, camera);
