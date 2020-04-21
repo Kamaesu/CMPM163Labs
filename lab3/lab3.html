@@ -21,7 +21,8 @@
             
             // setup the cube
             var geometry = new THREE.BoxGeometry();
-            var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+            var material = new THREE.MeshPhongMaterial( { color: 0xdddddd, specular: 0x00ff00, shininess: 30 });
+
             var cube = new THREE.Mesh( geometry, material );
             scene.add(cube);
 
@@ -44,11 +45,10 @@
             cube3.position.x = -2
             scene.add(cube3);
 
-            // add the light
-            var light = new THREE.PointLight(0xffffff, 1, 1000);
-            light.position.set(10, 10, 10);
-            scene.add(light);
-            ///////////////////
+
+            ////////////////////////////
+
+        
 
 
 
@@ -133,7 +133,7 @@
             var geometry2, material2, mesh2;
         function addCoolCube2() {
             if(count == 2) {
-                let uniforms = {
+                let uniforms2 = {
                     colorB: {type: 'vec3', value: new THREE.Color(0xACB6E5)},
                     colorA: {type: 'vec3', value: new THREE.Color(0x74ebd5)}
                 };
@@ -141,8 +141,8 @@
                 
                 geometry2 = new THREE.BoxGeometry(1, 1, 1);
                 material2 =  new THREE.ShaderMaterial({
-                    uniforms: uniforms,
-                    fragmentShader: fshader,
+                    uniforms: uniforms2,
+                    fragmentShader: fshader2,
                     vertexShader: vshader,
                     precision: "mediump"});
 
