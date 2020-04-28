@@ -16,6 +16,12 @@ What color is sampled from the texture at the uv coordinate (0.375, 0.25)? (samp
 White?
 
 
+
+https://i.imgur.com/P1tm6uR.gifv
+
+
+All of the cubes presented are just from the tutorial with different textures and everything, I got stuck on the other cubes.
+
 ===============
 
 LAB3
