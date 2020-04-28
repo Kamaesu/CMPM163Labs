@@ -13,7 +13,7 @@ The size will be 8 as well.
 
 What color is sampled from the texture at the uv coordinate (0.375, 0.25)? (sample from the image based on the number your formula gives you i.e. (1, 0) is blue)
 
-Light grey?
+White?
 
 
 ===============
