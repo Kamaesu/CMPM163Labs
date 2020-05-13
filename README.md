@@ -1,6 +1,16 @@
 # CMPM163Labs
 
 
+LAB6
+==============
+
+This is the screencap of what I got for my texture: https://i.imgur.com/M51Lrit.jpg
+
+Here is the link to my assignment:https://www.shadertoy.com/view/WsjBRR
+
+
+Here is something really cool I found when looking around in ShaderToy: https://www.shadertoy.com/view/MdSXzz
+
 
 LAB5
 ==============
