@@ -1,4 +1,31 @@
 # CMPM163Labs
+
+
+LAB6
+==============
+
+This is the screencap of what I got for my texture: https://i.imgur.com/M51Lrit.jpg
+
+Here is the link to my assignment:https://www.shadertoy.com/view/WsjBRR
+
+
+Here is something really cool I found when looking around in ShaderToy: https://www.shadertoy.com/view/MdSXzz
+
+
+LAB5
+==============
+
+a video of you moving around the static particles that change colors： https://i.imgur.com/vjHUcen.gifv
+
+
+a video of your explosion of particles : https://i.imgur.com/IntpiZw.gifv
+
+a video of your custom particle animation with a possibility of extra credit depending on how cool the scene is! : https://i.imgur.com/oHDySlK.gifv
+
+
+The way I learned how to do the last one is I was looking at this source code: https://redstapler.co/space-warp-background-effect-three-js/  This gives you the idea on how to program the the stars.
+
+
 LAB4
 ==============
 
