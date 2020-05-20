@@ -1,6 +1,19 @@
 # CMPM163Labs
 
 
+LAB7
+==============
+
+Three.js part 2 version:
+
+part a: https://i.imgur.com/Ntbh4JL.png
+
+another texture: https://i.imgur.com/vP1yEGh.png
+
+part b : https://i.imgur.com/KwKFynn.gifv
+
+part c, the creative part: https://i.imgur.com/Mw5HlA0.gifv
+
 LAB6
 ==============
 
