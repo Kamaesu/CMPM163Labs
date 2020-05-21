@@ -51,17 +51,17 @@ window.innerWidth/window.innerHeight, 0.1, 1000);
             scene.add(new THREE.AmbientLight(0xffffff, 0.3));
 
             var uniforms = {
-texture1: { type: "t", value:THREE.ImageUtils.loadTexture("terrain_texture.jpg")},
+texture1: { type: "t", value:THREE.ImageUtils.loadTexture("texture.png")},
     heightMap1: { type: "t",value:THREE.ImageUtils.loadTexture("Heightmap.png")}
 };
 var material = new THREE.ShaderMaterial({ uniforms: uniforms, 
 vertexShader: document.getElementById('vertexShader').textContent, fragmentShader: document.getElementById('fragmentShader').textContent});
 
 
-var plane = new THREE.Mesh(new THREE.PlaneGeometry(20, 20, 100, 
-100), material);
-    plane.position.z = -20;
-    plane.position.y = -1.2;
+var plane = new THREE.Mesh(new THREE.PlaneGeometry(50, 20, 500, 
+500), material);
+    plane.position.z = -10;
+    plane.position.y = -1;
     plane.rotation.x = -Math.PI / 2;
     scene.add(plane);
 
@@ -70,11 +70,10 @@ var plane = new THREE.Mesh(new THREE.PlaneGeometry(20, 20, 100,
 
     const mat = new THREE.MeshPhongMaterial({color:0x2288ff, 
     Shininess:100, side:THREE.DoubleSide})
-    var p = new THREE.PlaneGeometry(10, 10, 100, 100);
+    var p = new THREE.PlaneGeometry(100, 20, 300, 100);
     var plane = new THREE.Mesh(p, mat);
     plane.position.z = -20;
-    plane.position.y = -.7;
-    plane.rotation.x = -Math.PI / 2;
+    plane.rotation.x = -1.2;
     scene.add(plane);
 
 
@@ -99,13 +98,6 @@ var plane = new THREE.Mesh(new THREE.PlaneGeometry(20, 20, 100,
         shader.vertexShader = shader.vertexShader.replace(token,customTransform)
         matShader = shader
     }
-
-
-
-
-
-
-    
 
 
             
