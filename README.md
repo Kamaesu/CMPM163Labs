@@ -1,5 +1,18 @@
 # CMPM163Labs
 
+Lab8
+==============
+Inspirational photo I found on the internet:
+![](images/PHOTO.png)
+
+
+
+This is my own creation
+![](images/CITY.png)
+
+
+So obviously, I just added the water and then I changed the colors of the mesh depending on the y scale because you can see that in the inspirational image, the smaller buildings on the bottom right has a little bit more of a brownish tint to them.
+The taller buildings are more grey, but ofc I used some super saturated colors so mine isn't color accurate.
 
 LAB7
 ==============
