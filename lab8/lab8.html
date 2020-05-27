@@ -24,6 +24,8 @@
             // PlaneGeometry
             const mat = new THREE.MeshPhongMaterial({color:0x4f4f4f, Shininess:100, side:THREE.DoubleSide});
 var planeSize = 30;
+
+
             var p = new THREE.PlaneGeometry(planeSize, planeSize, 100, 100);
             var plane = new THREE.Mesh(p, mat);
             var planeCenter = new THREE.Vector3(0,-parseInt(planeSize/4),-planeSize/2);
@@ -98,9 +100,14 @@ var noiseData = [];
 for(var r = -planeSize/2; r < planeSize/2; r++) {
         for(var c = -planeSize/2; c < planeSize/2; c++) {
             var geometry = new THREE.BoxGeometry();
-                  var material = new THREE.MeshPhongMaterial({color:0x00ff00});
+                  var material = new THREE.MeshPhongMaterial({color:0xD2691E});
+                  var material2 = new THREE.MeshPhongMaterial({color:0xD3D3D3});
             var cube = new THREE.Mesh(geometry, material);
             cube.scale.y = Math.random() * (noiseData[i]/255*10);
+            if(cube.scale.y > 3)
+            {
+                cube.material = material2
+            }
             cube.scale.x = .7;
 cube.scale.z = .7;
 
